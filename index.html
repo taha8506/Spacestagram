@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Taha Shaikh">
+    <title>Spacestagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+
+        <header id=heading>
+            <h1 id="title"><b>Spacestagram</b></h1>
+            <h4 id="subTitle">NASA Astronomy Photo of The Day</h4>
+            <p id="description">Brought to you by NASA's Astronomy Photo of the Day (APOD) API</p>
+            <form>
+                <label for="datePicker">Choose a date:
+                    <input id="datePicker" type="date" min="" max="">
+                </label>
+            </form>
+        </header>
+
+        <div class="spacePhoto">
+            <script src="script.js"></script>
+        </div>
+
+        <div id="buttonDiv"></div>
+        <button id="like" onclick="liked()">
+            <i class="fa fa-thumbs-up"></i>
+            <span class="icon">Like</span>
+        </button>
+
+    </main>
+</body>
+
+</html>

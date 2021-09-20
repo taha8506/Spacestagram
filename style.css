@@ -1,0 +1,122 @@
+body {
+    font-family: "Monaco", Monospace;
+    background-image: url("Kj70fyV.jpg");
+    color: rgb(0, 0, 0);
+    margin: o;
+  }
+
+  main {
+    margin: auto;
+    text-align: center;
+  }
+
+  header {
+    padding: 2rem;
+    color: white;
+  }
+
+  #title{
+    font-size: 5.1vmax;
+    text-transform: uppercase;
+    line-height: 15%;
+  }
+
+  #subTitle{
+    font-size: 2vmax; 
+  }
+
+  #datePicker{
+    box-sizing: border-box;
+    width: 8rem;
+    padding: 0.2rem;
+    border-radius: 2rem;
+   }
+
+
+  #description {
+    color: rgba(255, 255, 255, 0.582);
+    margin-bottom: 2rem;
+    }
+
+  .cardBox {
+    transition: 0.3s;
+    width: 100%; 
+    padding: 0.1em 2em;
+    display: block;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    max-width: 95%;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    
+  }
+
+  .spacePhoto{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.4)
+  }
+
+  img {
+    border-radius: 15px 15px 0 0;
+  }
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 5px 25px;
+  }
+
+  .information {
+      padding-top: 10px;
+  }
+
+  .earth_date {
+      font-weight: bold;
+      font-size: large;
+  }
+
+  #buttonDiv{
+   padding: 1%; 
+   text-align:left;
+  }
+
+  button {
+    background: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    color: #65676b;
+    padding: 7px 15px;
+    border-radius: 2rem;
+  }
+  button.liked {
+    color: #ff0000;
+  }
+  button.liked i{
+    animation: anim 1s ease-in-out;
+    -webkit-animation: anim 1s ease-in-out;
+  }
+  @keyframes anim {
+    100% {
+      transform: rotate(-25deg) scale(1.3);
+      -webkit-transform: rotate(-25deg) scale(1.3);
+      -moz-transform: rotate(-25deg) scale(1.3);
+      -ms-transform: rotate(-25deg) scale(1.3);
+      -o-transform: rotate(-25deg) scale(1.3);
+      filter: blur(0.5px);
+      -webkit-filter: blur(0.5px);
+    }
+  }
